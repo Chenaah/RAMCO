@@ -1,0 +1,12 @@
+tensorflow-gpu
+gym
+mujoco-py
+ray
+cma
+tf2rl
+matplotlib
+sk-video
+tqdm
+nevergrad
+opencv-python
+wandb
