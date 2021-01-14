@@ -44,7 +44,7 @@ def main():
 	parser.add_argument('--run_num', type=int, default=int("{}{:03d}".format(int(time.strftime("%Y%m%d", time.localtime())), run_num_i)))
 	parser.add_argument('--num_warmup', type=int, default=20000)
 	parser.add_argument('--warmup_type', type=int, default=1, help='[0] Random, [1] SAC, [2] PPO, [3] TD3')
-	parser.add_argument('--mpc_optimiser', type=int, default=1, help='[0] CMAES, [1] MultiGaussian, [2] SimplifiedCMAES')
+	parser.add_argument('--mpc_optimiser', type=int, default=2, help='[0] CMAES, [1] MultiGaussian, [2] SimplifiedCMAES')
 	parser.add_argument('--alpha', type=float, default=0.05, help='Alpha of CVaR')
 	parser.add_argument('--boosting', action="store_true", default=False, help='Default: False')
 
